@@ -1,0 +1,28 @@
+C:\temp\LP2Farmacia\Presentation\bin\Debug\Presentation.exe.config
+C:\temp\LP2Farmacia\Presentation\bin\Debug\Presentation.exe
+C:\temp\LP2Farmacia\Presentation\bin\Debug\Presentation.pdb
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.signInForm.resources
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.exe
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.pdb
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.WelcomeWindow.resources
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.UserSession.resources
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\bin\Debug\Presentation.exe.config
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\bin\Debug\Presentation.exe
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\bin\Debug\Presentation.pdb
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.UserSession.resources
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.WelcomeWindow.resources
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.signInForm.resources
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.exe
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.pdb
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.ClientManagement.resources
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Presentation\obj\Debug\Presentation.RegisterClient.resources
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.ClientManagement.resources
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.RegisterClient.resources
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.UpdateClient.resources
+C:\temp\LP2Farmacia\Presentation\obj\Debug\Presentation.UpdateClientSelect.resources

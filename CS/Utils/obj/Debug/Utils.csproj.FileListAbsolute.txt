@@ -1,0 +1,2 @@
+C:\temp\LP2Farmacia\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\interfaces graficas\LP2Farmacia\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
