@@ -52,11 +52,12 @@ namespace Presentation
 
         public signInForm(string newPassword)
         {
-            Username = "71205561";
+            Username = "12345";
             Password = newPassword;
             InitializeComponent();
             this.CenterToScreen();
             this.Visible = true;
+            this.TopMost = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)

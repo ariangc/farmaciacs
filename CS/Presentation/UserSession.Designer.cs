@@ -76,6 +76,7 @@
             this.RequestsManageButton.TabIndex = 3;
             this.RequestsManageButton.Text = "Gestionar Solicitudes";
             this.RequestsManageButton.UseVisualStyleBackColor = true;
+            this.RequestsManageButton.Click += new System.EventHandler(this.RequestsManageButton_Click);
             // 
             // signOutLabel
             // 
@@ -89,9 +90,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(338, 260);
+            this.button1.Location = new System.Drawing.Point(313, 268);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 23);
+            this.button1.Size = new System.Drawing.Size(163, 23);
             this.button1.TabIndex = 5;
             this.button1.Text = "Cambiar Contraseña";
             this.button1.UseVisualStyleBackColor = true;
@@ -111,6 +112,7 @@
             this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "UserSession";
             this.Text = "La Allternativa - Usuario";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UserSession_FormClosing);
             this.Load += new System.EventHandler(this.UserSession_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

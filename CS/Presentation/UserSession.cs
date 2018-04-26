@@ -38,7 +38,18 @@ namespace Presentation
 
         private void UserSession_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void UserSession_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void RequestsManageButton_Click(object sender, EventArgs e)
+        {
+            NewRequest nr = new NewRequest();
+            nr.ShowDialog();
         }
     }
 }

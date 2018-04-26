@@ -51,23 +51,23 @@
     <Compile Include="ClientManagement.Designer.cs">
       <DependentUpon>ClientManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="RegisterClient.cs">
+    <Compile Include="EditClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegisterClient.Designer.cs">
-      <DependentUpon>RegisterClient.cs</DependentUpon>
+    <Compile Include="EditClient.Designer.cs">
+      <DependentUpon>EditClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewRequest.Designer.cs">
+      <DependentUpon>NewRequest.cs</DependentUpon>
     </Compile>
     <Compile Include="UpdateClient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpdateClient.Designer.cs">
       <DependentUpon>UpdateClient.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UpdateClientSelect.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UpdateClientSelect.Designer.cs">
-      <DependentUpon>UpdateClientSelect.cs</DependentUpon>
     </Compile>
     <Compile Include="UserSession.cs">
       <SubType>Form</SubType>
@@ -92,14 +92,14 @@
     <EmbeddedResource Include="ClientManagement.resx">
       <DependentUpon>ClientManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegisterClient.resx">
-      <DependentUpon>RegisterClient.cs</DependentUpon>
+    <EmbeddedResource Include="EditClient.resx">
+      <DependentUpon>EditClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewRequest.resx">
+      <DependentUpon>NewRequest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateClient.resx">
       <DependentUpon>UpdateClient.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UpdateClientSelect.resx">
-      <DependentUpon>UpdateClientSelect.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserSession.resx">
       <DependentUpon>UserSession.cs</DependentUpon>

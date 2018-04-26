@@ -89,10 +89,25 @@ namespace Presentation
 
         private void button1_Click(object sender, EventArgs e)
         {
-            UpdateClientSelect ucs = new UpdateClientSelect();
-            this.Hide();
-            ucs.ShowDialog();
-            this.Show();
+            bool flag = false;
+            if (dniTextBox.Text == "" && nameTextBox.Text == "" && lastnameTextBox.Text == "")
+            {
+                int i = 0;
+                MessageBox.Show("Debe ingresar datos en algún campo para realizar la búsqueda", "Error de Búsqueda", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                string cad = dniTextBox.Text;
+                while (i < cad.Length)
+                {
+                    if (cad[i] <= '0' && cad[i] >= '9') flag = true;
+                }
+            }
+            else if(flag)
+            {
+                MessageBox.Show("Solo puede ingresar números como DNI", "Error de Búsqueda", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                this.Size = new Size(819, 536);
+            }
         }
     }
 }
