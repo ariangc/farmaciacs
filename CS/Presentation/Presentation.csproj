@@ -63,6 +63,12 @@
     <Compile Include="NewRequest.Designer.cs">
       <DependentUpon>NewRequest.cs</DependentUpon>
     </Compile>
+    <Compile Include="SellsManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellsManagement.Designer.cs">
+      <DependentUpon>SellsManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NewRequest.resx">
       <DependentUpon>NewRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellsManagement.resx">
+      <DependentUpon>SellsManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateClient.resx">
       <DependentUpon>UpdateClient.cs</DependentUpon>

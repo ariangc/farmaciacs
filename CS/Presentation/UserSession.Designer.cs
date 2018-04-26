@@ -66,6 +66,7 @@
             this.sellsManageButton.TabIndex = 2;
             this.sellsManageButton.Text = "Gestionar Ventas";
             this.sellsManageButton.UseVisualStyleBackColor = true;
+            this.sellsManageButton.Click += new System.EventHandler(this.sellsManageButton_Click_1);
             // 
             // RequestsManageButton
             // 

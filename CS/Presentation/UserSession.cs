@@ -33,7 +33,10 @@ namespace Presentation
         private void button1_Click_1(object sender, EventArgs e)
         {
             signInForm sign = new signInForm("rivas");
-            this.Close();
+            
+            this.Hide();
+            sign.ShowDialog();
+            this.Show();
         }
 
         private void UserSession_Load(object sender, EventArgs e)
@@ -50,6 +53,13 @@ namespace Presentation
         {
             NewRequest nr = new NewRequest();
             nr.ShowDialog();
+        }
+        private void sellsManageButton_Click_1(object sender, EventArgs e) {
+            SellsManagement sm = new SellsManagement();
+
+            this.Hide();
+            sm.ShowDialog();
+            this.Show();
         }
     }
 }

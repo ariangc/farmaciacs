@@ -56,7 +56,6 @@ namespace Presentation
             Password = newPassword;
             InitializeComponent();
             this.CenterToScreen();
-            this.Visible = true;
             this.TopMost = true;
         }
 
@@ -118,7 +117,7 @@ namespace Presentation
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void IngresarButton_Enter(object sender, EventArgs e)
