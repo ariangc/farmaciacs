@@ -16,9 +16,9 @@ namespace Presentation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new signInForm());
+            //Application.Run(new signInForm());
 
-            //Application.Run(new UpdateClient());
+            Application.Run(new first());
         }
     }
 }

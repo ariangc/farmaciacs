@@ -47,7 +47,6 @@ namespace Presentation
             Password = "sergio";
             InitializeComponent();
             this.CenterToScreen();
-            this.Visible = true;
         }
 
         public signInForm(string newPassword)
@@ -117,7 +116,7 @@ namespace Presentation
 
         private void ExitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void IngresarButton_Enter(object sender, EventArgs e)
