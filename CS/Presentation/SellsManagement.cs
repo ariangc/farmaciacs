@@ -19,6 +19,9 @@ namespace Presentation
             cliente = productos = 0;
             InitializeComponent();
             this.CenterToScreen();
+
+            DateTime thisDay = DateTime.Today;
+            fechaTextBox.Text = thisDay.ToString("d");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -72,8 +75,8 @@ namespace Presentation
 
         private void textBox2_TextChanged(object sender, EventArgs e) {
             if (productos == 0) {
-                textBox2.Text = "";
-                textBox2.ForeColor = Color.Black;
+                fechaTextBox.Text = "";
+                fechaTextBox.ForeColor = Color.Black;
                 productos++;
             }
         }
@@ -87,7 +90,7 @@ namespace Presentation
         }
 
         private void textBox2_TextChanged_1(object sender, EventArgs e) {
-
+            
         }
 
         private void dataGridView2_CellContentClick_1(object sender, DataGridViewCellEventArgs e) {
@@ -103,6 +106,21 @@ namespace Presentation
         }
 
         private void tabPage1_Click(object sender, EventArgs e) {
+
+        }
+
+        private void label12_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
 
         }
     }

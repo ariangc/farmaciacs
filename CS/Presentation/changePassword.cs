@@ -26,6 +26,7 @@ namespace Presentation
             }
             else
                 MessageBox.Show("La contraseña fue actualizada corectamente", "Contraseña Actualizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Application.Restart();
         }
 
         private void label5_Click(object sender, EventArgs e)

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Presentation
 {
-    public partial class NewRequest : Form
+    public partial class RequestManagement : Form
     {
-        public NewRequest()
+        public RequestManagement()
         {
             InitializeComponent();
             this.CenterToScreen();
@@ -37,7 +37,13 @@ namespace Presentation
                     MessageBox.Show("Debe seleccionar un tipo de solicitud", "Estado de solicitud", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 else
+                {
                     MessageBox.Show("Solicitud enviada", "Estado de solicitud", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    requestTextBox.Text = "";
+                    RequestRadioButton.Checked = false;
+                    problemRadioButton.Checked = false;
+                    otherRadioButton.Checked = false;
+                }
                 
             }
             else if (requestTextBox.Text == "")

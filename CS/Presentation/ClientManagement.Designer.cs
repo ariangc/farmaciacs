@@ -119,7 +119,7 @@
             // modifyClientButton
             // 
             this.modifyClientButton.BackColor = System.Drawing.Color.Silver;
-            this.modifyClientButton.Location = new System.Drawing.Point(172, 361);
+            this.modifyClientButton.Location = new System.Drawing.Point(162, 361);
             this.modifyClientButton.Name = "modifyClientButton";
             this.modifyClientButton.Size = new System.Drawing.Size(89, 33);
             this.modifyClientButton.TabIndex = 7;
@@ -472,6 +472,7 @@
             this.clientTabControl.SelectedIndex = 0;
             this.clientTabControl.Size = new System.Drawing.Size(442, 429);
             this.clientTabControl.TabIndex = 6;
+            this.clientTabControl.SelectedIndexChanged += new System.EventHandler(this.clientTabControl_SelectedIndexChanged);
             // 
             // ClientManagement
             // 

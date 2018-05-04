@@ -25,8 +25,7 @@ namespace Presentation
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (dniCheckbox.Checked) textBox1.Enabled = true;
-            else textBox1.Enabled = false;
+            
         }
 
         private void namesCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -61,7 +60,7 @@ namespace Presentation
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(dniCheckbox.Checked || namesCheckBox.Checked || surnameCheckBox.Checked || districtCheckBox.Checked || phoneCheckBox.Checked || emailCheckBox.Checked)
+            if(namesCheckBox.Checked || surnameCheckBox.Checked || districtCheckBox.Checked || phoneCheckBox.Checked || emailCheckBox.Checked)
             {
                 DialogResult result;
                 result = MessageBox.Show("¿Esta Seguro de que desea cambiar el/los campo(s)?", "Cambio de cmapos de cliente", MessageBoxButtons.YesNo, MessageBoxIcon.Question);

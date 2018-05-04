@@ -30,13 +30,11 @@
         {
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.dniCheckbox = new System.Windows.Forms.CheckBox();
             this.namesCheckBox = new System.Windows.Forms.CheckBox();
             this.surnameCheckBox = new System.Windows.Forms.CheckBox();
             this.districtCheckBox = new System.Windows.Forms.CheckBox();
@@ -66,18 +64,10 @@
             this.label9.TabIndex = 9;
             this.label9.Text = "Ingrese los campos nuevos";
             // 
-            // textBox1
-            // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(218, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 10;
-            // 
             // textBox2
             // 
             this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(218, 137);
+            this.textBox2.Location = new System.Drawing.Point(218, 101);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 11;
@@ -85,7 +75,7 @@
             // textBox3
             // 
             this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(218, 174);
+            this.textBox3.Location = new System.Drawing.Point(218, 143);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 12;
@@ -93,7 +83,7 @@
             // textBox4
             // 
             this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(218, 209);
+            this.textBox4.Location = new System.Drawing.Point(218, 184);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 13;
@@ -101,7 +91,7 @@
             // textBox5
             // 
             this.textBox5.Enabled = false;
-            this.textBox5.Location = new System.Drawing.Point(218, 246);
+            this.textBox5.Location = new System.Drawing.Point(218, 225);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 14;
@@ -109,26 +99,15 @@
             // textBox6
             // 
             this.textBox6.Enabled = false;
-            this.textBox6.Location = new System.Drawing.Point(218, 283);
+            this.textBox6.Location = new System.Drawing.Point(218, 267);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 15;
             // 
-            // dniCheckbox
-            // 
-            this.dniCheckbox.AutoSize = true;
-            this.dniCheckbox.Location = new System.Drawing.Point(66, 104);
-            this.dniCheckbox.Name = "dniCheckbox";
-            this.dniCheckbox.Size = new System.Drawing.Size(48, 17);
-            this.dniCheckbox.TabIndex = 16;
-            this.dniCheckbox.Text = "DNI:";
-            this.dniCheckbox.UseVisualStyleBackColor = true;
-            this.dniCheckbox.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
             // namesCheckBox
             // 
             this.namesCheckBox.AutoSize = true;
-            this.namesCheckBox.Location = new System.Drawing.Point(66, 140);
+            this.namesCheckBox.Location = new System.Drawing.Point(66, 104);
             this.namesCheckBox.Name = "namesCheckBox";
             this.namesCheckBox.Size = new System.Drawing.Size(68, 17);
             this.namesCheckBox.TabIndex = 17;
@@ -139,7 +118,7 @@
             // surnameCheckBox
             // 
             this.surnameCheckBox.AutoSize = true;
-            this.surnameCheckBox.Location = new System.Drawing.Point(66, 177);
+            this.surnameCheckBox.Location = new System.Drawing.Point(66, 146);
             this.surnameCheckBox.Name = "surnameCheckBox";
             this.surnameCheckBox.Size = new System.Drawing.Size(66, 17);
             this.surnameCheckBox.TabIndex = 18;
@@ -150,7 +129,7 @@
             // districtCheckBox
             // 
             this.districtCheckBox.AutoSize = true;
-            this.districtCheckBox.Location = new System.Drawing.Point(66, 212);
+            this.districtCheckBox.Location = new System.Drawing.Point(66, 187);
             this.districtCheckBox.Name = "districtCheckBox";
             this.districtCheckBox.Size = new System.Drawing.Size(61, 17);
             this.districtCheckBox.TabIndex = 19;
@@ -161,7 +140,7 @@
             // phoneCheckBox
             // 
             this.phoneCheckBox.AutoSize = true;
-            this.phoneCheckBox.Location = new System.Drawing.Point(66, 246);
+            this.phoneCheckBox.Location = new System.Drawing.Point(66, 225);
             this.phoneCheckBox.Name = "phoneCheckBox";
             this.phoneCheckBox.Size = new System.Drawing.Size(71, 17);
             this.phoneCheckBox.TabIndex = 20;
@@ -172,7 +151,7 @@
             // emailCheckBox
             // 
             this.emailCheckBox.AutoSize = true;
-            this.emailCheckBox.Location = new System.Drawing.Point(66, 286);
+            this.emailCheckBox.Location = new System.Drawing.Point(66, 270);
             this.emailCheckBox.Name = "emailCheckBox";
             this.emailCheckBox.Size = new System.Drawing.Size(57, 17);
             this.emailCheckBox.TabIndex = 21;
@@ -212,13 +191,11 @@
             this.Controls.Add(this.districtCheckBox);
             this.Controls.Add(this.surnameCheckBox);
             this.Controls.Add(this.namesCheckBox);
-            this.Controls.Add(this.dniCheckbox);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label11);
             this.DoubleBuffered = true;
@@ -233,13 +210,11 @@
 
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.CheckBox dniCheckbox;
         private System.Windows.Forms.CheckBox namesCheckBox;
         private System.Windows.Forms.CheckBox surnameCheckBox;
         private System.Windows.Forms.CheckBox districtCheckBox;

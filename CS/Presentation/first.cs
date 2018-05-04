@@ -15,6 +15,7 @@ namespace Presentation
         public first()
         {
             InitializeComponent();
+            this.CenterToScreen();
             this.Visible = false;
 
             signInForm signIn = new signInForm();

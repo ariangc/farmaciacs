@@ -106,3 +106,8 @@ C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\farmaciacs\CS\Presentation\obj\Debug
 C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\farmaciacs\CS\Presentation\obj\Debug\Presentation.Properties.Resources.resources
 C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\farmaciacs\CS\Presentation\obj\Debug\Presentation.csproj.GenerateResource.Cache
 C:\Users\Lenovo\Documents\Cursos\2018-1\LP2\farmaciacs\CS\Presentation\obj\Debug\Presentation.changePassword.resources
+C:\temp\farmaciacs\CS\Presentation\obj\Debug\Presentation.changePassword.resources
+C:\temp\farmaciacs\CS\Presentation\obj\Debug\Presentation.EditClient.resources
+C:\temp\farmaciacs\CS\Presentation\obj\Debug\Presentation.first.resources
+C:\temp\farmaciacs\CS\Presentation\obj\Debug\Presentation.SellsManagement.resources
+C:\temp\farmaciacs\CS\Presentation\obj\Debug\Presentation.RequestManagement.resources

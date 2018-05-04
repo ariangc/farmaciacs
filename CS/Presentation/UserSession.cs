@@ -29,6 +29,7 @@ namespace Presentation
             if (result == System.Windows.Forms.DialogResult.Yes)
             {
                 this.Close();
+                Application.Restart();
             }
                 
         }
@@ -54,7 +55,7 @@ namespace Presentation
 
         private void RequestsManageButton_Click(object sender, EventArgs e)
         {
-            NewRequest nr = new NewRequest();
+            RequestManagement nr = new RequestManagement();
             nr.ShowDialog();
         }
         private void sellsManageButton_Click_1(object sender, EventArgs e) {

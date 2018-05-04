@@ -284,6 +284,11 @@ namespace Presentation
 
         private void searchButon_Click_1(object sender, EventArgs e)
         {
+            for (int i = 0; i < dataGridView1.RowCount - 1; i++)
+            {
+                dataGridView1.Rows[i].Visible = true;
+            }
+
             bool flag = true;
             for (int i = 0; i< dataGridView1.RowCount-1; i++)
             {
@@ -326,6 +331,11 @@ namespace Presentation
         private void ClientManagement_FormClosing(object sender, FormClosingEventArgs e)
         {
             
+        }
+
+        private void clientTabControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

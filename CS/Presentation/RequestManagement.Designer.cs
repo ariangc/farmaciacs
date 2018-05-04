@@ -1,6 +1,6 @@
 ﻿namespace Presentation
 {
-    partial class NewRequest
+    partial class RequestManagement
     {
         /// <summary>
         /// Required designer variable.
