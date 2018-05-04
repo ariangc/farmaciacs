@@ -27,15 +27,18 @@ namespace Presentation
 
             result = MessageBox.Show("Seguro que quiere cerrar sesión", "Cerrar Sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == System.Windows.Forms.DialogResult.Yes)
+            {
                 this.Close();
+            }
+                
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            signInForm sign = new signInForm("rivas");
+            changePassword cp = new changePassword();
             
             this.Hide();
-            sign.ShowDialog();
+            cp.ShowDialog();
             this.Show();
         }
 

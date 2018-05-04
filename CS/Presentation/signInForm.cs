@@ -43,7 +43,7 @@ namespace Presentation
 
         public signInForm()
         {
-            Username = "12345";
+            Username = "12345678";
             Password = "sergio";
             InitializeComponent();
             this.CenterToScreen();
@@ -51,7 +51,7 @@ namespace Presentation
 
         public signInForm(string newPassword)
         {
-            Username = "12345";
+            Username = "12345678";
             Password = newPassword;
             InitializeComponent();
             this.CenterToScreen();
@@ -68,6 +68,10 @@ namespace Presentation
             if(UsernameTextBox.Text== "" || PasswordTextBox.Text == "")
             {
                 MessageBox.Show("No ha ingresado todos los datos", "Error al iniciar sesión",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+            else if (UsernameTextBox.Text.Length != 8)
+            {
+                MessageBox.Show("Ingrese su número de DNI", "Error al iniciar sesión", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
             string us = UsernameTextBox.Text;
