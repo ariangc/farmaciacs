@@ -20,13 +20,21 @@ namespace Presentation
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(newPasswordTextBox.Text == repeatPasswordTextbox.Text)
+            if(newPasswordTextBox.Text != repeatPasswordTextbox.Text)
             {
-                MessageBox.Show("Las contraseñas no deben ser iguales", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Las contraseñas deben ser iguales", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (prevPasswordTextBox.Text == newPasswordTextBox.Text)
+            {
+                MessageBox.Show("La contraseña nueva debe ser diferente a la anterior", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
+            {
                 MessageBox.Show("La contraseña fue actualizada corectamente", "Contraseña Actualizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Application.Restart();
+                Application.Restart();
+            }
+                
+            
         }
 
         private void label5_Click(object sender, EventArgs e)
